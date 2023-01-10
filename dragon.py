@@ -7,16 +7,15 @@
 # - Mientras el usuario no seleccione una opcion valida no debe dejarle continuar
 # - Los ataques del usuario fallaran un 30% de las veces
 # - La vida del usuario y del dragon nunca puede superar 100 ni ser inferior a 0
-# - 4 opcion: le cura la vida entera pero solo lo puede usar una vez (para el usuario). 
-# - El ataque del dragon va a valer 30, pero falla un 40% (siempre)
-# - Comentar el codigo
-# - Ser capaz de extraer algun codigo en una nueva funcion 
+# - 4 opcion: le cura la vida entera pero solo lo puede usar una vez
+# - El ataque del dragon va a valer 30, pero falla un 40% 
+
 
 
 
 import random
 
-def turno_usuario(vida, veces_4): # Cuando llame a la funcion el parametro se puede llamar como quiera (vida)
+def turno_usuario(vida, veces_4): 
     print("\nTu turno")
     print("1. Atacar")
     print("2. Curar")
